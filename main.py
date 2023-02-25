@@ -101,10 +101,8 @@
 # Задача 14
 # Требуется вывести все целые степени двойки (т.е. числа вида 2k), не превосходящие числа N
 
-# N = int(input('Введите число: '))
-# numTwo = 1
-# k = 0
-# while numTwo < N:
-#     numTwo*=2
-#     k+=1
-#     print(numTwo//2)
+N = int(input('Введите число: '))
+numTwo = 1
+while numTwo <= N:
+    print(numTwo)
+    numTwo*=2
